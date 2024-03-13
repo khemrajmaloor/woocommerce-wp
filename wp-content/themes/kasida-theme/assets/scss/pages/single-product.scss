@@ -1,0 +1,26 @@
+// Common single product style.
+#woocom_main{
+  position: relative;
+
+  & .woocommerce-message{
+    border-top-color: $secondary-color;
+  }
+  & .woocommerce-message::before{
+    color: $secondary-color;
+  }
+
+  & .woocommerce-breadcrumb{
+    @include container();
+  }
+
+  & .flex-control-nav{
+    &.flex-control-thumbs{
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      max-width: 520px;
+      width: 100%;
+      gap: 3px;
+      list-style: none;
+    }
+  }
+}

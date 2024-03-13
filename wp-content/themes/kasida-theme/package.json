@@ -1,0 +1,15 @@
+{
+  "name": "kasida",
+  "version": "1.0.0",
+  "description": "It includes all the npm packages. Do not remove it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass --watch ./assets/scss/app.scss:./assets/css/main.min.css --style compressed"
+  },
+  "author": "Gurpreet Gumber",
+  "license": "ISC",
+  "dependencies": {
+    "@splidejs/splide": "^4.1.4"
+  }
+}

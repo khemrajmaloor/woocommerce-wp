@@ -1,0 +1,36 @@
+body {
+  font-family: system-ui;
+}
+
+.nav {
+  background: #e52865;
+}
+.nav__content__logo {
+  color: #000;
+  font-size: 8px;
+  font-family: inherit;
+  font-weight: bold;
+}
+.nav__content .menu-item {
+  padding: 15px;
+  max-width: 100%;
+}
+.nav__content .menu-item a {
+  color: #000;
+  text-decoration: none;
+}
+
+.collection {
+  background: rgba(220, 220, 220, 0.3607843137);
+  padding: 18px;
+}
+.collection__product__content .woocommerce ul li.product:hover {
+  transform: 1s;
+  height: 391px;
+  box-shadow: -1px 1px 3px 1px rgba(255, 0, 0, 0.1215686275);
+}
+.collection__product__content .woocommerce ul li.product {
+  padding: 10px;
+}
+
+/*# sourceMappingURL=app.css.map */

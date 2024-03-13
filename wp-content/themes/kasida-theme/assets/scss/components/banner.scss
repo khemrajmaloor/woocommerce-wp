@@ -1,0 +1,38 @@
+.prbanner{
+  &__container{
+    &__content{
+      &__grid{
+        display: flex;
+        &.rv{
+          flex-direction: row-reverse;
+        }
+        &__items{
+          padding: 15vw 0px;
+          & div{
+            max-width: 530px;
+            width: 100%;
+            height: auto;
+            h1, p {
+              margin-bottom: 1vw;
+            }
+
+            h1{
+              font-size: 48px;
+              font-family: $heading-font;
+            }
+
+            p{
+              font-size: 16px;
+              line-height: 26px;
+            }
+
+            span{
+              display: block;
+              margin: 22px auto;
+            }
+          }
+        }
+      }
+    }
+  }
+}

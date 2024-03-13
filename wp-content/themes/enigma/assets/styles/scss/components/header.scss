@@ -1,0 +1,28 @@
+
+body{
+  font-family: system-ui;
+}
+.nav {
+  
+ background: #e52865;
+  &__content{
+    &__logo {
+  
+    color: #000;
+    font-size: 8px;
+    font-family: inherit;
+    font-weight: bold;
+    
+  }
+  .menu-item {
+    
+    padding: 15px;
+    max-width: 100%;
+    a{
+      color: #000;
+      text-decoration: none;
+    }
+  } 
+}
+}
+  

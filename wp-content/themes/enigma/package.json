@@ -1,0 +1,11 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss" : "sass --watch ./assets/styles/scss/app.scss:./assets/styles/css/app.css"
+  },
+  "author": "",
+  "license": "ISC"
+}

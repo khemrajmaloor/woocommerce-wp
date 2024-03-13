@@ -1,0 +1,81 @@
+/*
+  Theme Name: Enigma
+  Theme URI: #
+  Author: Khem Raj
+  Author URI: #
+  Description: Brief description of the theme's purpose or features
+  Version: 1.0
+  
+
+
+
+  .star-rating {
+    color: goldenrod;
+}
+a {
+    color: rgb(31 33 36);
+    text-decoration: none;
+}
+.woocommerce-product-gallery__image {
+    max-width: 100%;
+		
+}
+img.wp-post-image {
+    height: 564px !important;
+}
+section.related.products {
+    display: inline-table;
+}
+
+li {
+    list-style: none;
+    color: palevioletred;
+}
+.filter__siderbar li {
+    margin-bottom: 14px;
+}
+.star-rating {
+    color: goldenrod;
+}
+a {
+    color: rgb(31 33 36);
+    text-decoration: none;
+}
+.woocommerce-product-gallery__image {
+    max-width: 100%;
+		
+}
+img.wp-post-image {
+    height: 564px !important;
+}
+section.related.products {
+    display: inline-table;
+}
+
+li {
+    list-style: none;
+    
+}
+.wp-block-woocommerce-price-filter {
+    color: palevioletred;
+}
+.wc-block-components-product-rating__stars {
+    color: palevioletred;
+}
+button.wp-block-search__button.wp-element-button {
+    background: palevioletred;
+    color: #fff;
+    border-radius: 11px;
+}
+body.archive.post-type-archive.post-type-archive-product.logged-in.admin-bar.wp-custom-logo.theme-enigma.woocommerce-shop.woocommerce.woocommerce-page.woocommerce-js.customize-support {
+    background: #dcdcdc21;
+}
+.filter__siderbar {
+    padding: 12px;
+    box-shadow: 1px 1px 5px 0px #6c757d7a;
+}
+.shop__content {
+    box-shadow: 0px 0px 1px 0px #808080d1;
+    padding: 5px;
+}
+*/

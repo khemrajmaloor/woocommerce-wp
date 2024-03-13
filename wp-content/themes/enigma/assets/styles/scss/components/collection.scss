@@ -1,0 +1,19 @@
+.collection {
+  background: #dcdcdc5c;
+  padding: 18px;
+
+  &__product__content {
+    .woocommerce {
+      ul {
+        li.product:hover {
+          transform: 1s;
+          height: 391px;
+          box-shadow: -1px 1px 3px 1px rgba(255, 0, 0, 0.1215686275);
+        }
+        li.product {
+         padding: 10px;
+        }
+      }
+    }
+  }
+}

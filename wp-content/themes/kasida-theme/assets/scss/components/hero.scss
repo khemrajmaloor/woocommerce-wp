@@ -1,0 +1,78 @@
+.splide__pagination {
+  display: none !important;
+}
+
+.hmslider{
+  &__container{
+    &__content{
+      ul{
+        position: relative;
+      }
+    }
+  }
+  &__slide__content{
+    display: grid;
+    grid-template-columns: 800px 1fr;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: auto;
+
+    &__desc{
+      background-color: $page-color;
+      padding: 120px 90px;
+
+      h1, p {
+        margin-bottom: 20px;
+      }
+      h1{
+        font-size: 72px;
+        font-weight: 900;
+        color: $primary-color;
+        text-shadow: 0px 4px 3px $shadow-color;
+      }
+      
+      p{
+        font-size: 22px;
+        font-weight: 300;
+        font-family: $font-family;
+      }
+  
+      a{
+        max-width: 200px;
+        width: 100%;
+        height: auto;
+        display: block;
+        padding: 12px 30px;
+        color: $page-color;
+        font-weight: 700;
+        font-family: $heading-font;
+        font-size: 19px;
+        text-align: center;
+        margin-top: $margin-bottom;
+      }
+    }
+
+    &__bg{
+      &__grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        &__items{
+          max-width: 550px;
+          width: 100%;
+          height: auto;
+          img{
+            max-width: 550px;
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+
+  & .splide__list{
+    height: auto;
+  }
+}
+
