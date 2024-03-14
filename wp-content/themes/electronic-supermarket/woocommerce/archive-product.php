@@ -15,12 +15,12 @@ get_header( 'shop' ); ?>
 	<div class="container">
 		<div class="row">
 			<?php if( get_theme_mod( 'electronic_supermarket_product_sidebar',true) != '') { ?>
-				<div id="theme-sidebar" class="col-lg-4 col-md-4"> <?php
+				<div id="theme-sidebar" class="col-lg-3 col-md-4"> <?php
 					// Sidebar call here.
 					do_action( 'woocommerce_sidebar' ); ?>
 				</div>
 			<?php }?>
-			<div class="<?php if(get_theme_mod('electronic_supermarket_product_sidebar',true)) { ?>col-lg-8 col-md-8" <?php } else { ?>col-lg-12 col-md-12" <?php } ?> > <?php
+			<div class="<?php if(get_theme_mod('electronic_supermarket_product_sidebar',true)) { ?>col-lg-9 col-md-8" <?php } else { ?>col-lg-12 col-md-12" <?php } ?> > <?php
 				
 				if ( woocommerce_product_loop() ) {
 					do_action( 'woocommerce_before_shop_loop' );
